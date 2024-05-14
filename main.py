@@ -9,13 +9,19 @@ import io
 st.set_page_config(layout="wide")
 warnings.filterwarnings("ignore")
 
+badge_url = "https://img.shields.io/badge/Star-Click%20Here-blue?logo=github&style=social"
+repo_url = "https://github.com/tatert0ts/analysis-telegram"
+
 with st.sidebar:
     st.title('Analyzing Telegram Conversations')
     st.write(text) 
     data = st.file_uploader('Upload Chat File:',type='json')
     picture = st.file_uploader('Upload Picture File:')
 
-    st.write("[![](https://img.shields.io/github/stars/tatert0ts/analysis-telegram.svg?logo=github&style=social)](https://github.com/tatert0ts/analysis-telegram)")
+    st.markdown(
+        f'<a href="{repo_url}"><img src="{badge_url}" alt="Star" style="vertical-align: middle;"></a>',
+        unsafe_allow_html=True
+    )
 
 # Function to resize the image proportionately
 def resize_image_proportionately(image_data, max_width, max_height):
