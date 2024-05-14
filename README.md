@@ -5,10 +5,8 @@ This repository is dedicated to exploring the everyday use of Telegram. By analy
 
 To achieve this, I leveraged the power of Plotly for data visualization and Streamlit for interactive web-based visualization. The analysis results are also hosted on Streamlit, providing a user-friendly interface for exploring the insights derived from the Telegram conversation data.
 
-Visit the Streamlit Dashboard [here!](https://telegram-analysis.streamlit.app/)
-
-![image](https://github.com/tatert0ts/analysis-telegram/assets/165807891/c757eaec-f2fe-4e4f-b58e-dcb889a53fe5)
-
+Visit the Streamlit Dashboard [here](https://telegram-analysis.streamlit.app/)!
+![image](https://github.com/tatert0ts/analysis_telegram/assets/165807891/9b50c8e1-9864-43e6-946c-cff41693f5fd)
 
 ## Files
 
