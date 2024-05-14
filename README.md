@@ -32,3 +32,7 @@ Visit the Streamlit Dashboard [here](https://telegram-analysis.streamlit.app/)!
    ```
 ## Contributors
 - Tan Jia Yin
+
+*Potential Next Steps*
+
+*- Optimize for analysis from Telegram Channels*
