@@ -154,7 +154,7 @@ if data is not None:
 
     if picture is not None:
         col1, col2 = st.columns([1, 2])
-        with col1:, 
+        with col1:
             bytes_data = picture.getvalue()
             resized_image = resize_image_proportionately(bytes_data, max_width=300, max_height=300)
             st.image(resized_image)
