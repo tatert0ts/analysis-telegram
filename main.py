@@ -18,10 +18,10 @@ with st.sidebar:
     data = st.file_uploader('Upload Chat File:',type='json')
     picture = st.file_uploader('Upload Picture File:')
 
-    st.markdown(
-        f'<a href="{repo_url}"><img src="{badge_url}" alt="Star" style="vertical-align: middle;"></a>',
-        unsafe_allow_html=True
-    )
+    # st.markdown(
+    #     f'<a href="{repo_url}"><img src="{badge_url}" alt="Star" style="vertical-align: middle;"></a>',
+    #     unsafe_allow_html=True
+    # )
 
 # Function to resize the image proportionately
 def resize_image_proportionately(image_data, max_width, max_height):
